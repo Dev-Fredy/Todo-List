@@ -1,0 +1,27 @@
+.delete-todo-button {
+    color: var(--text-color);
+    background-color: var(--danger-dark-color);
+    font-size: 1.2rem;
+    padding: 6px;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+
+    @media (max-width: 900px) {
+        padding: 10px;
+    }
+}
+
+.add-todo-button {
+    color: var(--text-color);
+    background-color: var(--darker-green-grass);
+    font-size: 1.2rem;
+    padding: 6px;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+
+    @media (max-width: 900px) {
+        padding: 10px;
+    }
+}
